@@ -1,4 +1,4 @@
-#importing the packages
+#importing the necessary packages
 import numpy as np
 import pandas as pd
 import time
@@ -12,7 +12,7 @@ from pandastable import Table, TableModel
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
-#It takes 
+#It reads input from excel file
 n=int(input('The number of area in your data....'))
 data_file_name=input('Enter the data file you\'re having\t')
 data=pd.read_excel(data_file_name+'.xlsx')
